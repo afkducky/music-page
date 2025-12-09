@@ -15,11 +15,11 @@ playPause.addEventListener('click', () => {
 });
 
 audio.addEventListener('play', () => {
-  playPause.textContent = 'Pause';
+  playPause.textContent = '⏸ Pause';
 });
 
 audio.addEventListener('pause', () => {
-  playPause.textContent = 'Play';
+  playPause.textContent = '▶️ Play';
 });
 
 // Update time
